@@ -4,8 +4,9 @@ https://github.com/surajjakkan7/EDA-Automator/assets/84495687/5d701264-1dd7-43f1
 
 
 
-1. Industry Type:
-Finance
+
+**1. Industry Type:
+  Finance
 
 2. Project Title:
 Automated Exploratory Data Analysis (EDA) for Financial Services
