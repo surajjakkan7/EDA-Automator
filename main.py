@@ -118,29 +118,3 @@ if uploaded_file is not None:
 else:
     st.info('Please upload a CSV file.')
 
-# Sidebar content
-
-st.sidebar.markdown('---')
-
-developer_expander = st.sidebar.expander('Contact Developer ', expanded=False)
-
-with developer_expander:
-    st.text('Developed By:')
-    st.text("Suraj Jakkan")
-    st.text("Email_Id:")
-    st.text('surajjakkan@outlook.com')
-    st.text("Profile")
-    st.markdown('[Link to Profile](https://surajjakkan7.github.io/profile/)')
-
-# Contact form
-# Contact form expander
-contact_expander = st.sidebar.expander('Contact Form', expanded=False)
-
-with contact_expander:
-    name = st.text_input('Name')
-    email = st.text_input('Email')
-    message = st.text_area('Message', height=150)
-
-    if st.button('Send Message'):
-        # Here you can add code to handle the message submission, like sending an email or storing in a database
-        st.success('Message sent successfully!')
